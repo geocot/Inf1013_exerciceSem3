@@ -1,0 +1,17 @@
+.containerParent{
+  border: 1px solid grey;
+  padding: 10px;
+  flex:1;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+app-enfant{
+  border: 1px solid grey;
+  padding: 10px;
+  flex:1;
+}
+
